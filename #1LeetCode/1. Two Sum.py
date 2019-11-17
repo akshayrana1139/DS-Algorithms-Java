@@ -31,7 +31,8 @@ class Solution2:
                 if map[target-nums[i]] != i:
                     return [i,map[target-nums[i]]]
 
-# 1 pass: Faster than 99.8%
+# Runtime: 40 ms, faster than 99.79% of Python3 online submissions for Two Sum.
+# Memory Usage: 14.1 MB, less than 63.49% of Python3 online submissions for Two Sum.
 class Solution3:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         map = {}
