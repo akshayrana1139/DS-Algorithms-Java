@@ -18,8 +18,8 @@ s = Solution()
 print(s.maxArea([1,8,6,2,5,4,8,3,7]))
 
 # 1 pass
-Runtime: 136 ms, faster than 88.75% of Python3 online submissions for Container With Most Water.
-Memory Usage: 14.6 MB, less than 8.42% of Python3 online submissions for Container With Most Water.
+# Runtime: 136 ms, faster than 88.75% of Python3 online submissions for Container With Most Water.
+# Memory Usage: 14.6 MB, less than 8.42% of Python3 online submissions for Container With Most Water.
 class Solution2:
     def maxArea(self, height: List[int]) -> int:
         max_area = 0
