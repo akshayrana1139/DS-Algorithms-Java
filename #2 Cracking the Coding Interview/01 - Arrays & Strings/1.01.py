@@ -1,6 +1,9 @@
 
 
 '''
+Question: Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
+
+Thoughts: Do we have alphabets and numbers? The limit could be only till 128 if ASCII, so its basically never O(n) but O(1) always.. So sorting the list is bad. 
 
 My different methods I tried in google doc initially.. 
 
