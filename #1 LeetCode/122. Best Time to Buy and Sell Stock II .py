@@ -32,6 +32,17 @@ class Solution:
         return profit
 
 
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        if len(prices)==0: return 0
+        i = 1;profit = 0
+        while(i<len(prices)):
+            if prices[i]>prices[i-1]:
+                profit += prices[i]-prices[i-1]
+            i+=1
+        return profit
+
+
 if __name__ == "__main__":
     # print(Solution().maxProfit([1,2,3,4,5]))
     # print(Solution().maxProfit([7,1,5,3,6,4]))
