@@ -17,6 +17,24 @@ def create_BST(int arr[], int start, int end):
     n.left = create_BST(arr, start, mid-1)
     n.right = create_BST(arr, mid+1, end)
     return n;
-
-
 '''
+
+class Tree():
+    def __init__(self, val):
+        self.val = val
+        self.left = None
+        self.right = None
+
+class Solution():
+
+    def __init__(self):
+        pass
+
+    @staticmethod
+    def create_BST(abc):
+        pass 
+
+
+def create_s():
+    pass
+

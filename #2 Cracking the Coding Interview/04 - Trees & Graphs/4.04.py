@@ -6,8 +6,4 @@ Always ask what do we mean by balanced here? It says we need to make sure that t
 
 We can come out of the loop as soon as it is not equal... 
 
-
-
-
-
 '''
