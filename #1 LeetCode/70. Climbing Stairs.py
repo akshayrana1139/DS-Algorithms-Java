@@ -11,6 +11,6 @@ class Solution:
         while(i<=n):
             final = first+second
             first = second
-            second = final
+            second = finl
             i+=1
         return final
